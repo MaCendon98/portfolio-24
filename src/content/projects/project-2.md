@@ -45,11 +45,6 @@ TimeWarp Travel Agency aims to redefine the travel experience by offering an inn
 
 - For an extra layer of immersion, users can opt for the Time-Port VR experience, allowing them to virtually step into different time periods and explore the surroundings in 360 degrees.
 
-5. **Chronicle Explorer Blog:**
-
-- A blog section, "Chronicle Explorer," offers in-depth articles and stories about various historical periods and their impact on the destinations featured on the platform.
-- Users can engage with the content, comment, and share their own historical insights.
-
 ## Technology Stack
 
 - **Frontend:** [Astro.js](https://astro.build/) for a dynamic and responsive user interface and [Tailwind CSS](https://tailwindcss.com/) for styling.

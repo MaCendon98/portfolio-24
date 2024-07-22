@@ -16,11 +16,6 @@ export type Hero = {
     actions?: Link[];
 };
 
-export type Subscribe = {
-    title?: string;
-    text?: string;
-    formUrl: string;
-};
 
 export type SiteConfig = {
     logo?: Image;
@@ -32,15 +27,14 @@ export type SiteConfig = {
     footerNavLinks?: Link[];
     socialLinks?: Link[];
     hero?: Hero;
-    subscribe?: Subscribe;
     postsPerPage?: number;
     projectsPerPage?: number;
 };
 
 const siteConfig: SiteConfig = {
     title: 'Mattia Cendon',
-    subtitle: 'UX/UI Portfolio',
-    description: 'Mein Portfolio für UX/UI',
+    subtitle: 'UX/UI Designer',
+    description: 'Mein Portfolio für UX/UI Design',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Mattia Cendon'
@@ -51,53 +45,33 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
-            text: 'Projects',
-            href: '/projects'
+            text: 'Über mich',
+            href: '/about'
         },
         {
-            text: 'Blog',
-            href: '/blog'
-        },
-        {
-            text: 'Tags',
-            href: '/tags'
+            text: 'Lebenslauf',
+            href: '/resume'
         }
     ],
     footerNavLinks: [
         {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
+            text: 'Kontakt',
             href: '/contact'
         },
         {
-            text: 'Terms',
+            text: 'Impressum',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            text: 'Linkedin',
+            href: 'https://linkedin.com/in/mattia-cendon-332312146'
         }
     ],
     hero: {
-        title: 'Hi! Hier kommt der Titel hin.',
-        text: "Hier ist etwas Text zu mir.",
+        title: 'Mattia Cendon | UX/UI Designer',
+        text: "Ich gestalte Webseiten und SaaS-Applikationen, die durch einfaches, klares und intuitives Design überzeugen. Bei jeder Entscheidung sorge ich dafür, dass der Nutzer im Mittelpunkt steht.",
         image: {
             src: '/hero.jpeg',
             alt: 'Mattia Cendon'
@@ -109,12 +83,6 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
-    postsPerPage: 8,
     projectsPerPage: 8
 };
 

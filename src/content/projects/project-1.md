@@ -1,5 +1,5 @@
 ---
-title: 'Lynx Design System & SaaS Platform'
+title: 'Lynx Design System & Web Platform Rework'
 description: Hier gehts um das Lynqtech Design System für das Agentportal und wie wir es neu aufgebaut haben.
 publishDate: 'Jul 18 2024'
 isFeatured: true
@@ -11,57 +11,60 @@ seo:
 
 ![Project preview](/project-1.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+# Case Study: Designsystem für das Agentenportal
 
-**Project Overview:**
-EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+## Einleitung
 
-## Objectives
+**Projektname und Datum:** Designsystem für das Agentenportal, 2023
 
-1. Develop a user-friendly mobile app that motivates individuals to adopt sustainable practices in their daily lives.
-2. Utilize gamification elements to make sustainable living fun and interactive.
-3. Provide educational resources and personalized challenges to empower users to make informed eco-conscious decisions.
+**Kurzbeschreibung:** Wir haben ein umfassendes Designsystem in Figma entwickelt, das auf Bootstrap basiert. Dazu gehörten auch die Erstellung von Interaktionsrichtlinien, die festlegen, wie und wann welche Komponenten verwendet werden sollen.
 
-## Features
+![Einleitung](/)
 
-1. **EcoScore and Challenges:**
+## Hintergrund und Kontext
 
-- Users are assigned an EcoScore based on their sustainable activities and choices.
-- Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+Das Agentenportal unserer Firma basierte auf dem Bootstrap/Metronic Framework, hatte jedoch kein eigenes internes Designsystem. Neue Features wurden oft ohne konsistente Designrichtlinien umgesetzt oder anhand von Screenshots schnell und unsauber in Figma gebaut. Dies führte zu einem unkoordinierten und uneinheitlichen Erscheinungsbild. Unsere Zielgruppe bestand aus internen Entwicklern und Designern, die ein einheitliches und leicht zugängliches System benötigten, um effizient arbeiten zu können.
 
-2. **Personalized Eco-Goals:**
+![Hintergrund](/)
 
-- Users can set and track personalized eco-goals, such as reducing plastic usage, conserving water, or choosing eco-friendly transportation.
-- The app provides tips and suggestions to help users achieve their goals.
+## Zielsetzung
 
-3. **Green Rewards Marketplace:**
+Unser Hauptziel war es, ein sauberes und gut strukturiertes Designsystem zu erstellen, mit dem sich schnell und einfach Bildschirme in Figma bauen lassen. Es sollte sicherstellen, dass alle Komponenten immer gleich aussehen, was zu einem konsistenten Design und einer besseren Benutzererfahrung führt. Außerdem wollten wir das aktuelle Agentenportal modernisieren und sicherstellen, dass auf jeder Seite ein einheitliches Erscheinungsbild herrscht, um den vorherigen Wildwuchs zu vermeiden. Obwohl keine spezifischen KPIs festgelegt wurden, war die Verbesserung der Konsistenz und Benutzererfahrung zentrale Ziele.
 
-- EcoPoints earned through challenges and sustainable actions can be redeemed in a virtual Green Rewards Marketplace.
-- The marketplace offers discounts on eco-friendly products, services, and even contributions to environmental causes.
+![Zielsetzung](/)
 
-4. **Community Hub:**
+## Forschungsphase
 
-- A community feature allows users to connect, share their eco-friendly achievements, and inspire others.
-- Users can join local eco-groups, organize clean-up events, and collaborate on sustainability projects.
+Zu Beginn analysierten wir bestehende Designsysteme und Best Practices und orientierten uns dabei stark an Bootstrap. Die Analyse half uns, die wichtigen Elemente und Prinzipien zu identifizieren, die für unser eigenes Designsystem notwendig waren.
 
-5. **EcoEducator AI Assistant:**
+![Forschungsphase](/)
 
-- An AI-powered assistant, EcoEducator, provides personalized eco-tips, facts, and information based on users' preferences and habits.
-- Users can chat with EcoEducator for instant advice on sustainable living.
+## Designprozess
 
-## Technology Stack
+Der Designprozess begann mit dem Sammeln von Ideen und dem Erstellen erster Entwürfe. In Figma bauten wir dann das Designsystem auf, wobei wir modulare Komponenten entwickelten. Diese modularen Komponenten ermöglichten es uns, flexibel und effizient zu arbeiten. Kontinuierliches Feedback von Entwicklern und Designern wurde in den Prozess integriert, um das Designsystem stetig zu verbessern und an die Bedürfnisse des Teams anzupassen.
 
-- Frontend: React Native for cross-platform mobile app development.
-- Backend: Firebase for real-time data synchronization and user authentication.
-- Database: Firestore for scalable and flexible data storage.
-- AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
+![Designprozess](/)
 
-## Outcome
+## Umsetzung
 
-EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
+Das Designsystem wurde direkt in Figma erstellt, daher waren detaillierte Designspezifikationen nicht notwendig. Während der gesamten Umsetzung arbeiteten wir eng mit den Entwicklern zusammen, um sicherzustellen, dass das Designsystem reibungslos implementiert werden konnte und allen Anforderungen gerecht wurde.
 
-## Client Testimonial
+![Umsetzung](/)
 
-> We couldn't be happier with the results delivered by Ethan Donovan. From the initial concept discussions to the final product, their responsiveness and collaborative approach were impressive. Our startup's website now stands out, thanks to their creative input and commitment to excellence.
+## Ergebnisse
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Der Abschluss und die Einführung des Designsystems führten zu einer deutlich verbesserten Benutzererfahrung und einer Reduzierung der Produktkomplexität. Die Phasen der Projektmanagement- und UX-Analyse sowie der Konzeption wurden beschleunigt, was die Dauer der Projekte und die Anzahl der Iterationen verringerte. Werkzeuge wie Figma und Storybook spielten dabei eine wesentliche Rolle. Die Benutzerzufriedenheit und die NPS-Werte verbesserten sich, und die Projektdauer sowie der Aufwand für die Überprüfung und Iteration entwickelter Schnittstellen wurden reduziert.
+
+![Ergebnisse](/)
+
+## Fazit und Ausblick
+
+Das Projekt war ein großer Erfolg und verdeutlichte die Bedeutung eines gut strukturierten und dokumentierten Designsystems für die Konsistenz und Effizienz in der Design- und Entwicklungsarbeit. Zukünftige Projekte können von den gewonnenen Erkenntnissen profitieren, und das Designsystem wird kontinuierlich weiterentwickelt und verfeinert, um noch bessere Ergebnisse zu erzielen.
+
+![Fazit](/)
+
+## Visuelle Darstellungen
+
+Screenshots und Mockups des Designsystems sowie Vorher-Nachher-Vergleiche werden auf der Portfolio-Webseite eingefügt, um den Designprozess und die erzielten Ergebnisse visuell darzustellen.
+
+![Screenshots](/)
