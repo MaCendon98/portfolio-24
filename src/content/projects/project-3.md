@@ -1,7 +1,7 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+title: 'Lernapp Backend'
+description: Hier gehts um das Backend fürs Büffelbiest.
+publishDate: 'Jul 16 2024'
 isFeatured: true
 seo:
   image:

@@ -1,7 +1,8 @@
 ---
-title: 'NeuralPlaylist - AI Generated Music Recommendations'
-description: Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
-publishDate: 'Oct 19 2023'
+title: 'Platform für automatisierte Produktion von digitalen Kampagnen'
+description: Hier gehts um Vishnoo, habe aber keine Bilder…
+publishDate: 'Jul 15 2024'
+isFeatured: true
 seo:
   image:
     src: '/project-4.jpg'
